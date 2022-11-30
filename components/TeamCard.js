@@ -39,12 +39,6 @@ const TeamCard = () => {
                   </span>
                 </dd>
               </dl>
-
-              {team.currentTopLoser && (
-                <div className='p-4'>
-                  <h1 className='text-green-800'>Current ranked worst team</h1>
-                </div>
-              )}
               <div>
                 {team.stillInTournament ? (
                   <h1 className='rounded-full bg-green-100 px-4 py-2 text-lg font-large text-green-800'>
