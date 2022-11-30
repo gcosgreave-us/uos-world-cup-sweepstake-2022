@@ -21,7 +21,7 @@ export default function Home() {
             University Of Surrey World Cup Sweepstake
           </h1>
         </div>
-        <div className='rounded bg-white p-6 mb-6 sm:w-full w-1/3'>
+        <div className='rounded bg-white p-6 mb-6 w-full md:w-1/3'>
           <h1 className='text-chathams-blue text-4xl font-bold underline text-left mb-4'>
             Legend
           </h1>
