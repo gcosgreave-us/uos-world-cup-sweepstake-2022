@@ -93,7 +93,7 @@ export const defaultTeams = [
     name: 'Denmark',
     countryCode: 'DK',
     teamOwner: 'Kate H',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Denmark_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -102,7 +102,7 @@ export const defaultTeams = [
     name: 'Tunisia',
     countryCode: 'TN',
     teamOwner: 'Kate H',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Tunisia_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
