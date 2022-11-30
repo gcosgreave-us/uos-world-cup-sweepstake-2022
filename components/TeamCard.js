@@ -24,29 +24,29 @@ const TeamCard = () => {
                   <span className='text-lg font-large'>
                     {team.currentTopTeam ? (
                       <span
-                        className={`rounded-full px-4 py-2 text-lg font-large ${
+                        className={`rounded-full px-4 py-2 text-2xl font-large ${
                           team.stillInTournament
                             ? 'bg-green-100 text-green-800'
                             : 'bg-red-900 text-white'
                         }`}
                       >
                         {team.teamOwner}
-                        <span className='text-2xl px-2'>🥇</span>
+                        <span className='text-2xl pl-2'>🥇</span>
                       </span>
                     ) : team.currentTopLoser ? (
                       <span
-                        className={`rounded-full px-4 py-2 text-lg font-large ${
+                        className={`rounded-full px-4 py-2 text-2xl font-large ${
                           team.stillInTournament
                             ? 'bg-green-100 text-green-800'
                             : 'bg-red-900 text-white'
                         }`}
                       >
                         {team.teamOwner}
-                        <span className='text-2xl px-2'>🥄</span>
+                        <span className='text-2xl pl-2'>🥄</span>
                       </span>
                     ) : (
                       <span
-                        className={`rounded-full px-4 py-2 text-lg font-large ${
+                        className={`rounded-full px-4 py-2 text-2xl font-large ${
                           team.stillInTournament
                             ? 'bg-green-100 text-green-800'
                             : 'bg-red-900 text-white'
