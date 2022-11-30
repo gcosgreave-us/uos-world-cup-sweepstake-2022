@@ -21,21 +21,40 @@ const TeamCard = () => {
               <dl className='mt-1 flex flex-grow flex-col justify-between mb-4'>
                 <dt className='sr-only'>Role</dt>
                 <dd className='mt-3'>
-                  <span
-                    className={`rounded-full px-4 py-2 text-lg font-large ${
-                      team.stillInTournament
-                        ? 'bg-green-100 text-green-800'
-                        : 'bg-red-900 text-white'
-                    }`}
-                  >
-                    <span>
-                      {/*  */}
-                      {team.currentTopTeam
-                        ? `${team.teamOwner} 🥇`
-                        : team.currentTopLoser
-                        ? `${team.teamOwner} 🥄`
-                        : `${team.teamOwner}`}
-                    </span>
+                  <span className='text-lg font-large'>
+                    {team.currentTopTeam ? (
+                      <span
+                        className={`rounded-full px-4 py-2 text-lg font-large ${
+                          team.stillInTournament
+                            ? 'bg-green-100 text-green-800'
+                            : 'bg-red-900 text-white'
+                        }`}
+                      >
+                        {team.teamOwner}
+                        <span className='text-2xl px-2'>🥇</span>
+                      </span>
+                    ) : team.currentTopLoser ? (
+                      <span
+                        className={`rounded-full px-4 py-2 text-lg font-large ${
+                          team.stillInTournament
+                            ? 'bg-green-100 text-green-800'
+                            : 'bg-red-900 text-white'
+                        }`}
+                      >
+                        {team.teamOwner}
+                        <span className='text-2xl px-2'>🥄</span>
+                      </span>
+                    ) : (
+                      <span
+                        className={`rounded-full px-4 py-2 text-lg font-large ${
+                          team.stillInTournament
+                            ? 'bg-green-100 text-green-800'
+                            : 'bg-red-900 text-white'
+                        }`}
+                      >
+                        {team.teamOwner}
+                      </span>
+                    )}
                   </span>
                 </dd>
               </dl>
