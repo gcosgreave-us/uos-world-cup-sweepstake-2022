@@ -84,7 +84,7 @@ export const defaultTeams = [
     name: 'Saudi Arabia',
     countryCode: 'SA',
     teamOwner: 'Charlotte',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -111,7 +111,7 @@ export const defaultTeams = [
     name: 'Mexico',
     countryCode: 'MX',
     teamOwner: 'Andrew',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Mexico_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
