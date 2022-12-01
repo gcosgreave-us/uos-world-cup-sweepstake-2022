@@ -201,7 +201,7 @@ export const defaultTeams = [
     name: 'Belgium',
     countryCode: 'BE',
     teamOwner: 'Zack',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Belgium_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
