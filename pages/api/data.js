@@ -165,7 +165,7 @@ export const defaultTeams = [
     name: 'Germany',
     countryCode: 'DE',
     teamOwner: 'Gavin',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Germany_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -192,7 +192,7 @@ export const defaultTeams = [
     name: 'Costa Rica',
     countryCode: 'CR',
     teamOwner: 'Joanne',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Costa_rica_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
