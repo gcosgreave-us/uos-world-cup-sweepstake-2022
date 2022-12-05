@@ -57,7 +57,7 @@ export const defaultTeams = [
     name: 'USA',
     countryCode: 'US',
     teamOwner: 'Dan',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/usa_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -138,7 +138,7 @@ export const defaultTeams = [
     name: 'Australia',
     countryCode: 'AU',
     teamOwner: 'Zack',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Australia_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -228,7 +228,7 @@ export const defaultTeams = [
     name: 'Serbia',
     countryCode: 'RS',
     teamOwner: 'Rachel',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Serbia_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -282,7 +282,7 @@ export const defaultTeams = [
     name: 'Cameroon',
     countryCode: 'CM',
     teamOwner: 'Nikki',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Cameroon_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
