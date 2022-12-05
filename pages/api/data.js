@@ -21,7 +21,7 @@ export const defaultTeams = [
     name: 'Senegal',
     countryCode: 'SN',
     teamOwner: 'John',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Senegal_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -120,7 +120,7 @@ export const defaultTeams = [
     name: 'Poland',
     countryCode: 'PL',
     teamOwner: 'Alex',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Poland_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -246,7 +246,7 @@ export const defaultTeams = [
     name: 'Ghana',
     countryCode: 'GH',
     teamOwner: 'Kate H',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Ghana_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -255,7 +255,7 @@ export const defaultTeams = [
     name: 'Uruguay',
     countryCode: 'UY',
     teamOwner: 'Nikki',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Uruguay_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
