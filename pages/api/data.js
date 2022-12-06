@@ -174,7 +174,7 @@ export const defaultTeams = [
     name: 'Japan',
     countryCode: 'JP',
     teamOwner: 'Kate J',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Japan_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -264,7 +264,7 @@ export const defaultTeams = [
     name: 'South Korea',
     countryCode: 'KR',
     teamOwner: 'Alex',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/South_korea_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
