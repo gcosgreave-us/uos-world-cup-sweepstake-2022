@@ -183,7 +183,7 @@ export const defaultTeams = [
     name: 'Spain',
     countryCode: 'ES',
     teamOwner: 'Joanne',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Spain_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -273,7 +273,7 @@ export const defaultTeams = [
     name: 'Switzerland',
     countryCode: 'CH',
     teamOwner: 'Clare',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Switzerland_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
