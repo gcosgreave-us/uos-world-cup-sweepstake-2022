@@ -75,7 +75,7 @@ export const defaultTeams = [
     name: 'Argentina',
     countryCode: 'AR',
     teamOwner: 'John',
-    stillInTournament: false,
+    stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Argentina_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
