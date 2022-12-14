@@ -30,7 +30,7 @@ export const defaultTeams = [
     name: 'Netherlands',
     countryCode: 'NL',
     teamOwner: 'Mark',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Netherlands_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -39,7 +39,7 @@ export const defaultTeams = [
     name: 'England',
     countryCode: 'GB-ENG',
     teamOwner: 'Sarah',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/England_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -75,7 +75,7 @@ export const defaultTeams = [
     name: 'Argentina',
     countryCode: 'AR',
     teamOwner: 'John',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Argentina_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -156,7 +156,7 @@ export const defaultTeams = [
     name: 'Croatia',
     countryCode: 'HR',
     teamOwner: 'Charlotte',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Croatia_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
@@ -219,7 +219,7 @@ export const defaultTeams = [
     name: 'Brazil',
     countryCode: 'BR',
     teamOwner: 'Mark',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Brazil_national_football_team',
     currentTopLoser: false,
     currentTopTeam: true
@@ -237,7 +237,7 @@ export const defaultTeams = [
     name: 'Portugal',
     countryCode: 'PT',
     teamOwner: 'Andrew',
-    stillInTournament: true,
+    stillInTournament: false,
     wiki: 'https://en.wikipedia.org/wiki/Portugal_national_football_team',
     currentTopLoser: false,
     currentTopTeam: true
