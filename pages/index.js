@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
 import TeamCard from '../components/TeamCard';
 
 export default function Home() {
@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <img src='/surrey.png' className='w-1/3 mx-auto' />
         <div className='flex p-8 justify-center align-i'>
           <h1 className='text-white text-4xl font-bold underline text-center'>
             University Of Surrey World Cup Sweepstake
