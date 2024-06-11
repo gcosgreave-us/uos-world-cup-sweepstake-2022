@@ -24,51 +24,42 @@ const TeamCard = () => {
                     <dt className='sr-only'>Role</dt>
                     <dd className='mt-3'>
                       <span className='text-lg font-large'>
-                        {team.currentTopTeam ? (
-                          <span
-                            className={`rounded-full px-4 py-2 text-2xl font-large ${
-                              team.stillInTournament
-                                ? 'bg-green-100 text-green-800'
-                                : 'bg-red-900 text-white'
-                            }`}
-                          >
-                            {team.teamOwner}
+                        <span
+                          className={`rounded-full px-4 py-2 text-2xl font-large ${
+                            team.stillInTournament
+                              ? 'bg-green-100 text-green-800'
+                              : 'bg-red-900 text-white'
+                          }`}
+                        >
+                          {team.teamOwner ? team.teamOwner : 'To be drawn'}
+                          {team.currentTopTeam ? (
                             <span className='text-2xl pl-2'>🥇</span>
-                          </span>
-                        ) : team.currentTopLoser ? (
-                          <span
-                            className={`rounded-full px-4 py-2 text-2xl font-large ${
-                              team.stillInTournament
-                                ? 'bg-green-100 text-green-800'
-                                : 'bg-red-900 text-white'
-                            }`}
-                          >
-                            {team.teamOwner}
+                          ) : team.currentTopLoser ? (
                             <span className='text-2xl pl-2'>🥄</span>
-                          </span>
-                        ) : (
-                          <span
-                            className={`rounded-full px-4 py-2 text-2xl font-large ${
-                              team.stillInTournament
-                                ? 'bg-green-100 text-green-800'
-                                : 'bg-red-900 text-white'
-                            }`}
-                          >
-                            {team.teamOwner}
-                          </span>
-                        )}
+                          ) : null}
+                        </span>
                       </span>
                     </dd>
                   </dl>
                   <div>
                     {team.stillInTournament ? (
-                      <h1 className='rounded-full bg-green-100 px-4 py-2 text-lg font-large text-green-800'>
-                        Still in tournament 🥳
-                      </h1>
+                      <>
+                        <h1 className='rounded-full bg-green-100 px-4 py-2 text-lg font-large text-green-800'>
+                          Still in tournament
+                        </h1>
+                        <span className='flex justify-center text-4xl m-4'>
+                          🥳
+                        </span>
+                      </>
                     ) : (
-                      <h1 className='rounded-full bg-red-900 px-4 py-2 text-lg font-large text-white'>
-                        Out 😞
-                      </h1>
+                      <>
+                        <h1 className='rounded-full bg-red-900 px-4 py-2 text-lg font-large text-white'>
+                          Out 😞
+                        </h1>
+                        <span className='flex justify-center text-4xl m-4'>
+                          😞
+                        </span>
+                      </>
                     )}
                   </div>
                 </div>
