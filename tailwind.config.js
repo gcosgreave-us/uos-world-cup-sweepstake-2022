@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'chathams-blue': '#1C467E'
+        'battersea-blue': '#25384A'
       }
     }
   },
