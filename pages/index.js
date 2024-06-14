@@ -6,7 +6,7 @@ import stag from '../public/stag.svg';
 
 export default function Home() {
   return (
-    <div className={`container mx-auto px-10 bg-battersea-blue`}>
+    <div className='mx-auto px-10 bg-battersea-blue'>
       <Head>
         <title>University Of Surrey World Cup 2022 Sweepstake</title>
         <meta
@@ -17,14 +17,13 @@ export default function Home() {
       </Head>
 
       <main>
-        {/* <Image src='/surrey.png' className='w-1/3 mx-auto' alt='' /> */}
         <div className='flex p-8 justify-center align-middle flex-col-reverse'>
           <h1 className='text-white text-4xl font-bold underline text-center'>
             University Of Surrey World Cup Sweepstake
           </h1>
           <Image src={stag} className='w-1/6 mx-auto pb-4' alt='' />
         </div>
-        <div className='rounded bg-white p-6 mb-6 w-full md:w-1/3'>
+        <div className='rounded bg-white p-6 mb-6 w-full lg:w-1/3'>
           <h1 className='text-battersea-blue text-4xl font-bold underline text-left mb-4'>
             Legend
           </h1>

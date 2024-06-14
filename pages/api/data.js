@@ -209,7 +209,7 @@ export const defaultTeams = [
   {
     name: 'Turkey',
     countryCode: 'TR',
-    teamOwner: '',
+    teamOwner: 'BARRY',
     stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Turkey_national_football_team',
     currentTopLoser: false,
