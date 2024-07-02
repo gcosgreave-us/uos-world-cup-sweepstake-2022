@@ -1,289 +1,217 @@
 export const defaultTeams = [
   {
-    name: 'Qatar',
-    countryCode: 'QA',
-    teamOwner: 'Gavin',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Qatar_national_football_team',
-    currentTopLoser: true,
-    currentTopTeam: false
-  },
-  {
-    name: 'Ecuador',
-    countryCode: 'EC',
-    teamOwner: 'Rachel',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Ecuador_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Senegal',
-    countryCode: 'SN',
-    teamOwner: 'John',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Senegal_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Netherlands',
-    countryCode: 'NL',
-    teamOwner: 'Mark',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Netherlands_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'England',
-    countryCode: 'GB-ENG',
-    teamOwner: 'Sarah',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/England_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Iran',
-    countryCode: 'IR',
-    teamOwner: 'Chandra',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Iran_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'USA',
-    countryCode: 'US',
-    teamOwner: 'Dan',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/usa_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Wales',
-    countryCode: 'GB-WLS',
-    teamOwner: 'Chandra',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/wales_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Argentina',
-    countryCode: 'AR',
-    teamOwner: 'John',
+    name: 'Albania',
+    countryCode: 'AL',
+    teamOwner: '',
     stillInTournament: true,
-    wiki: 'https://en.wikipedia.org/wiki/Argentina_national_football_team',
+    wiki: 'https://en.wikipedia.org/wiki/Albania_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
-    name: 'Saudi Arabia',
-    countryCode: 'SA',
-    teamOwner: 'Charlotte',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Denmark',
-    countryCode: 'DK',
-    teamOwner: 'Kate H',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Denmark_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Tunisia',
-    countryCode: 'TN',
-    teamOwner: 'Kate H',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Tunisia_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Mexico',
-    countryCode: 'MX',
-    teamOwner: 'Andrew',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Mexico_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Poland',
-    countryCode: 'PL',
-    teamOwner: 'Alex',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Poland_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'France',
-    countryCode: 'FR',
-    teamOwner: 'Dan',
+    name: 'Austria',
+    countryCode: 'AT',
+    teamOwner: '',
     stillInTournament: true,
-    wiki: 'https://en.wikipedia.org/wiki/France_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: true
-  },
-  {
-    name: 'Australia',
-    countryCode: 'AU',
-    teamOwner: 'Zack',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Australia_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Morocco',
-    countryCode: 'MA',
-    teamOwner: 'Clare',
-    stillInTournament: true,
-    wiki: 'https://en.wikipedia.org/wiki/Morocco_national_football_team',
+    wiki: 'https://en.wikipedia.org/wiki/Austria_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
     name: 'Croatia',
     countryCode: 'HR',
-    teamOwner: 'Charlotte',
-    stillInTournament: false,
+    teamOwner: '',
+    stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Croatia_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Czech Republic',
+    countryCode: 'CZ',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Czech_Republic_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Denmark',
+    countryCode: 'DK',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Denmark_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'England',
+    countryCode: 'GB-ENG',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/England_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Georgia',
+    countryCode: 'GE',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Georgia_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Hungary',
+    countryCode: 'HU',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Hungary_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Italy',
+    countryCode: 'IT',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Italy_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Netherlands',
+    countryCode: 'NL',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Netherlands_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Poland',
+    countryCode: 'PL',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Poland_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Romania',
+    countryCode: 'RO',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Romania_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'France',
+    countryCode: 'FR',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/France_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Scotland',
+    countryCode: 'GB-SCT',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Scotland_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Serbia',
+    countryCode: 'RS',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Serbia_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Slovakia',
+    countryCode: 'SK',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Slovakia_national_football_team',
+    currentTopLoser: false,
+    currentTopTeam: false
+  },
+  {
+    name: 'Slovenia',
+    countryCode: 'SI',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Slovenia_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
     name: 'Germany',
     countryCode: 'DE',
-    teamOwner: 'Gavin',
-    stillInTournament: false,
+    teamOwner: '',
+    stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Germany_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Japan',
-    countryCode: 'JP',
-    teamOwner: 'Kate J',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Japan_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
     name: 'Spain',
     countryCode: 'ES',
-    teamOwner: 'Joanne',
-    stillInTournament: false,
+    teamOwner: '',
+    stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Spain_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Costa Rica',
-    countryCode: 'CR',
-    teamOwner: 'Joanne',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Costa_rica_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
     name: 'Belgium',
     countryCode: 'BE',
-    teamOwner: 'Zack',
-    stillInTournament: false,
+    teamOwner: '',
+    stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Belgium_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Canada',
-    countryCode: 'CA',
-    teamOwner: 'Sarah',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Canada_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'Brazil',
-    countryCode: 'BR',
-    teamOwner: 'Mark',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Brazil_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: true
-  },
-  {
-    name: 'Serbia',
-    countryCode: 'RS',
-    teamOwner: 'Rachel',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Serbia_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
     name: 'Portugal',
     countryCode: 'PT',
-    teamOwner: 'Andrew',
-    stillInTournament: false,
+    teamOwner: '',
+    stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Portugal_national_football_team',
     currentTopLoser: false,
-    currentTopTeam: true
-  },
-  {
-    name: 'Ghana',
-    countryCode: 'GH',
-    teamOwner: 'Kate H',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Ghana_national_football_team',
-    currentTopLoser: false,
     currentTopTeam: false
   },
   {
-    name: 'Uruguay',
-    countryCode: 'UY',
-    teamOwner: 'Nikki',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Uruguay_national_football_team',
-    currentTopLoser: false,
-    currentTopTeam: false
-  },
-  {
-    name: 'South Korea',
-    countryCode: 'KR',
-    teamOwner: 'Alex',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/South_korea_national_football_team',
+    name: 'Ukraine',
+    countryCode: 'UA',
+    teamOwner: '',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Ukraine_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
     name: 'Switzerland',
     countryCode: 'CH',
-    teamOwner: 'Clare',
-    stillInTournament: false,
+    teamOwner: '',
+    stillInTournament: true,
     wiki: 'https://en.wikipedia.org/wiki/Switzerland_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   },
   {
-    name: 'Cameroon',
-    countryCode: 'CM',
-    teamOwner: 'Nikki',
-    stillInTournament: false,
-    wiki: 'https://en.wikipedia.org/wiki/Cameroon_national_football_team',
+    name: 'Turkey',
+    countryCode: 'TR',
+    teamOwner: 'BARRY',
+    stillInTournament: true,
+    wiki: 'https://en.wikipedia.org/wiki/Turkey_national_football_team',
     currentTopLoser: false,
     currentTopTeam: false
   }
